@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Demo1
 {
-    class Program
+    class Context:DbContext
     {
-        static void Main(string[] args)
-        {
-            
-            Console.ReadLine();
-        }
+        public DbSet<Record> Records { get; set; }
     }
 }
