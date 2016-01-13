@@ -10,6 +10,8 @@ namespace Demo1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("IT WORKS!!!");
+            Console.ReadLine();
         }
     }
 }
